@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Peliculas</title>
+    <style>
+        #menuu ul li{
+            color: rgb(255, 255, 255);
+            display: flex;
+            float: right;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menuu">
+        <ul>
+            <li><a href="indexx.html">Home</a></li>
+            <li><a href="iniciarsesion.html">Iniciar Sesion</a></li>
+            <li><a href="index.html">Formulario Peliculas</a></li>
+            <li><a href="Peliculas.html">Tabla</a></li>
+        </ul>
+    </div>
+    <h1>Formulario</h1>
+    <form action="procesadatos.php" method="post">
+
+        <div>
+            <label for="titulo">Título original:</label>
+            <input type="text" id="titulo" name="titulo" required>
+        </div>
+
+        <div>
+            <label for="ano">Año:</label>
+            <input type="text" id="ano" name="ano" required>
+        </div>
+
+        <div>
+            <label for="duracion">Duración:</label>
+            <input type="text" id="duracion" name="duracion" required>
+        </div>
+
+        <div>
+            <label for="pais">País:</label>
+            <input type="text" id="pais" name="pais" required>
+        </div>
+
+        <div>
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+        </div>
+
+        <div>
+            <label for="guion">Guion:</label>
+            <input type="text" id="guion" name="guion" required>
+        </div>
+
+        <div>
+            <label for="reparto">Reparto:</label>
+            <input type="text" id="reparto" name="reparto" required>
+        </div>
+    
+        <div>
+            <label for="musica">Música:</label>
+            <input type="text" id="musica" name="musica" required>
+        </div>
+        
+        <div>
+            <label for="fotografia">Fotografía:</label>
+            <input type="text" id="fotografia" name="fotografia" required>
+        </div>
+        
+    
+        <button>Enviar</button>
+    </form>
+</body>
+</html>

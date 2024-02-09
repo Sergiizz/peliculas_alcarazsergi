@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #menuu ul li{
+            color: rgb(255, 255, 255);
+            display: flex;
+            float: right;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="menuu">
+        <ul>
+            <li><a href="indexx.html">Home</a></li>
+            <li><a href="iniciarsesion.html">Iniciar Sesion</a></li>
+            <li><a href="index.html">Formulario Peliculas</a></li>
+            <li><a href="Peliculas.html">Tabla</a></li>
+        </ul>
+    </div>
+    <h1>Inicio de sesion</h1>
+    <form action="procesar_login.php" method="post">
+
+        <div>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+
+        <div>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+    
+        <div>
+            <input type="checkbox" id="recuerdame" name="recuerdame">
+            <label for="recuerdame">Recuérdame</label>
+        </div>
+        
+        <a href="olvido_contrasena.php">¿Olvidaste tu contraseña?</a>
+    
+        <button>Iniciar Sesion</button>
+    </form>
+</body>
+</html>

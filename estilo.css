@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu ul li{
+    color: rgb(255, 255, 255);
+    display: flex;
+    float: right;
+    padding: 15px;
+
+}
+
+#imagen img{
+    height: 70px;
+}
+
+#background img{
+    opacity: 0.6;
+}
+
+#menutele img{
+    height: 230px;
+    position: relative;
+    left: 475px;
+    top: 80px;
+    
+}
+
+#prime img{
+    width: 250px;
+    border: 3px solid #fff;
+
+}
+
+#netflix img{
+    width: 250px;
+    border: 3px solid #fff;
+
+}
+
+#hbo img{
+    width: 250px;
+    border: 3px solid #fff;
+
+}
+
+#menupelis {
+    display: flex;  
+    justify-content: space-between ; 
+    padding: 600px;
+    position: relative;
+    bottom: 320px;
+}
+
+#menutele p{
+    color: aliceblue;
+    font-size: 30px;
+    font-family: fantasy;
+    width: 315px;
+    float: right;
+    position: relative;
+    right: 650px;
+    top: 125px;
+}
+
+#pieza1{
+    display: flex;
+    justify-content: space-between;
+    padding: 500px;
+}
+
+#pieza1 img{
+    width: 200px;
+    position: relative;
+    bottom: 1300px;
+    right: 400px;
+}
+
+#pieza2{
+    display: flex;
+    justify-content: space-between;
+    padding: 500px;
+}
+
+#pieza2 img{
+    width: 200px;
+    position: relative;
+    bottom: 2250px;
+    right: 400px;
+}
+
+#pieza3{
+    display: flex;
+    justify-content: space-between;
+    padding: 500px;
+}
+
+#pieza3 img{
+    width: 200px;
+    position: relative;
+    bottom: 3200px;
+    right: 400px;
+}
+
+#menuu ul li{
+    color: rgb(255, 255, 255);
+    display: flex;
+    float: right;
+    padding: 15px;
+}
